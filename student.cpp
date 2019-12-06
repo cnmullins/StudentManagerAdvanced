@@ -28,5 +28,14 @@ double student::getScore()
     {
         average += student::grades.at(i);
     }
-    return average / student::grades.size();
+    if (student::grades.size() > 0)
+    {
+         return average / student::grades.size();
+    }
+    else
+    {
+        return 0;
+    }
 }
+
+
