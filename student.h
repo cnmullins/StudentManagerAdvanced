@@ -8,8 +8,7 @@ class student
     private:
         std::string firstName = "";
         std::string lastName = "";
-//        std::vector<double> grades;
-        double score;
+        double score = 0;
 
     public:
         std::vector<double> grades;
